@@ -1,9 +1,12 @@
 <script setup lang="ts">
-import TheWelcome from '../components/TheWelcome.vue'
+import CardBlock from '@/components/CardBlock.vue';
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <CardBlock />
 </template>
+
+<style lang="scss" scoped>
+
+
+</style>
